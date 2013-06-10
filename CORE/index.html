@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>QR CODE</title>
+<link href="index.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<br /><br /><br />
+<div id="logo"><img src="images/logo.gif" width="214" height="87" /></div>
+<div id="m_body">
+<br /><br />
+<form action="z_qrcode.php" method="post">
+Input your words：<br /><textarea name="d" rows="6" cols="42"></textarea><br /><br />
+check：<select name="e"><option value="L">L</option><option value="M" selected="selected">M</option><option value="Q">Q</option><option value="H">H</option></select>&nbsp;&nbsp;
+Size：<select name="s"><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4" selected="selected">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option></select>&nbsp;&nbsp;
+Color：<select name="c"><option value="0,0,0">Black</option><option value="255,0,0">Red</option><option value="0,0,255">Blue</option><option value="255,0,255">Purple</option><option value="125,125,125">灰</option></select><br /><br />
+<input type="submit" value="Make in now!" />
+</form>
+</div>
+<div id="m_bot">&copy;&nbsp;<a href="https://github.com/Zobeltitz">Zobeltitz's Github</a></div>
+</body>
+</html>
